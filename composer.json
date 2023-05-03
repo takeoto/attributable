@@ -1,0 +1,21 @@
+{
+    "name": "takeoto/attributable",
+    "description": "Abstraction for objects with custom attributes.",
+    "type": "library",
+    "keywords": ["takeoto", "attributable", "abstraction", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladysalv Vernyhora",
+            "homepage": "vladyslav.vernyhora@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Takeoto\\Attributable\\": "src/"
+        }
+    }
+}
