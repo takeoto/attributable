@@ -9,6 +9,9 @@ trait TraitWriteableAttributes
      */
     private array $attributes;
 
+    /**
+     * @see \Takeoto\Attributable\Contract\WritableAttributesInterface::setAttr()
+     */
     public function setAttr(string $name, mixed $value): static
     {
         $this->attributes[$name] = $value;
@@ -16,6 +19,9 @@ trait TraitWriteableAttributes
         return $this;
     }
 
+    /**
+     * @see \Takeoto\Attributable\Contract\WritableAttributesInterface::unsetAttr()
+     */
     public function unsetAttr(string $name): void
     {
         unset($this->attributes[$name]);
