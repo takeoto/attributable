@@ -2,7 +2,7 @@
     "name": "takeoto/attributable",
     "description": "Abstraction for objects with custom attributes.",
     "type": "library",
-    "keywords": ["takeoto", "attributable", "abstraction", "php"],
+    "keywords": ["takeoto", "dto", "attributable", "abstraction", "php"],
     "license": "MIT",
     "authors": [
         {
