@@ -14,7 +14,7 @@ trait TraitReadableAttributes
     /**
      * @see Takeoto\Attributable\Contract\ReadableAttributesInterface::getAttr()
      */
-    public function getAttr(string $name): mixed
+    public function getAttr(string $name)
     {
         if (!isset($this->attributes[$name])) {
             throw new \RuntimeException(sprintf('Attribute "%" does not exists!', $name));

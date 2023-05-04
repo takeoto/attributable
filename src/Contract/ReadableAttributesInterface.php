@@ -13,7 +13,7 @@ interface ReadableAttributesInterface
      * @return mixed
      * @throws \Throwable
      */
-    public function getAttr(string $name): mixed;
+    public function getAttr(string $name);
 
     /**
      * Checks the attribute for availability.

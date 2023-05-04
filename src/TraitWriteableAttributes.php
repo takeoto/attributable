@@ -14,7 +14,7 @@ trait TraitWriteableAttributes
     /**
      * @see \Takeoto\Attributable\Contract\WritableAttributesInterface::setAttr()
      */
-    public function setAttr(string $name, mixed $value): static
+    public function setAttr(string $name, $value)
     {
         $this->attributes[$name] = $value;
 

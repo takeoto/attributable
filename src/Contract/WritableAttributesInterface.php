@@ -11,9 +11,9 @@ interface WritableAttributesInterface
      *
      * @param string $name
      * @param mixed $value
-     * @return static
+     * @return $this
      */
-    public function setAttr(string $name, mixed $value): static;
+    public function setAttr(string $name, $value);
 
     /**
      * Unsets the attribute value.
